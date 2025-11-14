@@ -23,9 +23,9 @@ function HomePage() {
       <Navbar />
       <main>
         <HeroSection />
+        <AboutSection />
         <SeriesSection />
         <ReviewsSection />
-        <AboutSection />
         <ContactSection />
         <NewsletterSection />
       </main>
