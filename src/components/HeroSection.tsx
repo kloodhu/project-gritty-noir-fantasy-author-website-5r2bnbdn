@@ -1,5 +1,5 @@
 import { Button } from './ui/button'
-import { ShoppingCart, Mail } from 'lucide-react'
+import { ShoppingCart } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { booksData } from '@/data/books'
 import { BookCover } from './BookCover'
@@ -88,15 +88,6 @@ export function HeroSection() {
                   Learn More
                 </Button>
               </Link>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-dashed border-muted text-muted-foreground hover:border-accent hover:text-accent"
-                onClick={() => document.getElementById('newsletter')?.scrollIntoView({ behavior: 'smooth' })}
-              >
-                <Mail className="mr-2 h-5 w-5" />
-                Subscribe for Updates
-              </Button>
             </div>
           </div>
         </div>
