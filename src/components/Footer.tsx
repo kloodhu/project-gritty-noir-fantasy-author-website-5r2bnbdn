@@ -45,18 +45,18 @@ export function Footer() {
               </li>
               <li>
                 <button 
-                  onClick={() => handleNavigation('series')}
-                  className="text-muted-foreground hover:text-primary transition-colors"
-                >
-                  The Series
-                </button>
-              </li>
-              <li>
-                <button 
                   onClick={() => handleNavigation('about')}
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
                   About
+                </button>
+              </li>
+              <li>
+                <button 
+                  onClick={() => handleNavigation('series')}
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
+                  The Series
                 </button>
               </li>
               <li>
