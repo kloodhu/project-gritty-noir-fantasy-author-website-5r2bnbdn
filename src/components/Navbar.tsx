@@ -61,6 +61,12 @@ export function Navbar() {
                   Featured Book
                 </button>
                 <button 
+                  onClick={() => scrollToSection('about')}
+                  className="text-foreground hover:text-primary transition-colors"
+                >
+                  About
+                </button>
+                <button 
                   onClick={() => scrollToSection('series')}
                   className="text-foreground hover:text-primary transition-colors"
                 >
@@ -71,12 +77,6 @@ export function Navbar() {
                   className="text-foreground hover:text-primary transition-colors"
                 >
                   Reviews
-                </button>
-                <button 
-                  onClick={() => scrollToSection('about')}
-                  className="text-foreground hover:text-primary transition-colors"
-                >
-                  About
                 </button>
                 <button 
                   onClick={() => scrollToSection('contact')}
@@ -129,6 +129,12 @@ export function Navbar() {
                     Featured Book
                   </button>
                   <button
+                    onClick={() => scrollToSection('about')}
+                    className="text-left text-foreground hover:text-primary transition-colors py-2"
+                  >
+                    About
+                  </button>
+                  <button
                     onClick={() => scrollToSection('series')}
                     className="text-left text-foreground hover:text-primary transition-colors py-2"
                   >
@@ -139,12 +145,6 @@ export function Navbar() {
                     className="text-left text-foreground hover:text-primary transition-colors py-2"
                   >
                     Reviews
-                  </button>
-                  <button
-                    onClick={() => scrollToSection('about')}
-                    className="text-left text-foreground hover:text-primary transition-colors py-2"
-                  >
-                    About
                   </button>
                   <button
                     onClick={() => scrollToSection('contact')}
