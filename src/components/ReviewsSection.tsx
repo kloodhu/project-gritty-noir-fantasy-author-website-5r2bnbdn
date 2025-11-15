@@ -24,7 +24,7 @@ export function ReviewsSection() {
             What Readers Are Saying
           </h2>
           <p className="text-xl text-muted-foreground">
-            Discover why readers are falling in love with The Dark Chronicles
+            Discover why readers are falling in love with New Merserat Chronicles
           </p>
         </div>
 

@@ -24,20 +24,22 @@ export function AboutSection() {
               {/* Author Bio */}
               <div className="space-y-4 flex-1">
                 <h3 className="font-serif text-3xl font-bold text-foreground">
-                  Author Name
+                  Klood P. Trouvay
                 </h3>
                 
                 <div className="space-y-4 text-foreground/90 leading-relaxed">
                   <p>
-                    [Author Name] is a writer of dark fantasy and noir fiction, specializing in gritty urban fantasies set in worlds where shadow and light wage an eternal war. Drawing inspiration from historical periods and the hard-boiled detective novels of old, they craft tales that blur the line between hero and villain.
+                    Born among the cobblestone streets of a small European town, Klood crafts gritty, character-driven low fantasy that explores the darker corners of human nature. His lifelong fascination with psychology and sociology infuses his work with complex characters whose motivations feel unsettlingly real.
                   </p>
                   
                   <p>
-                    Born and raised near the coast, they developed an early fascination with maritime history and the shadowy underworld of port cities. This passion informs every page of The Dark Chronicles, bringing authenticity and atmosphere to the fog-shrouded streets and dangerous harbors that serve as the backdrop for their stories.
+                    Introverted by temperament, he'd rather observe a crowded room than command it; that quiet attention finds its voice on the page, where flawed heroes and dangerous villains make choices that blur the lines between right and wrong—and always carry a cost.
+					
+					A devoted lover of history, he builds worlds grounded in historical detail and shaped by the echoes of the past. When he isn’t writing, Klood can be found surrounded by stacks of research books, each competing for space on an impossibly overcrowded nightstand. What began as a casual “let me try writing one chapter” has evolved into an obsession with storytelling craft. He cites Joe Abercrombie and George R. R. Martin as key influences, particularly their sardonic edge and intricate politics.
                   </p>
                   
                   <p>
-                    When not writing, they can be found researching obscure historical details, exploring coastal towns, or lost in a good book with a strong cup of coffee. They currently reside [Location], where they're at work on the next installment of The Dark Chronicles.
+					His writing schedule is gently enforced by his canine companion, who has somehow intuited that every chapter break requires a walk in the nearby forest. On football match days, you’ll find him shouting at the television, briefly humbled by forces beyond his control—much like the characters who populate his ongoing series, "New Merserat Chronicles".
                   </p>
                 </div>
 

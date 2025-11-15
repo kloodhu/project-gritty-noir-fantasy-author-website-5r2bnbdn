@@ -52,7 +52,7 @@ export function NewsletterSection() {
               Join the Mailing List
             </h2>
             <p className="text-lg text-muted-foreground mb-8 max-w-xl mx-auto">
-              Get exclusive updates, behind-the-scenes content, and be the first to know about new releases in The Dark Chronicles.
+              Get exclusive updates, behind-the-scenes content, and be the first to know about new releases in New Merserat Chronicles.
             </p>
 
             <form onSubmit={handleSubmit} className="flex flex-col gap-4 max-w-md mx-auto">

@@ -13,7 +13,7 @@ export function SeriesSection() {
       <div className="relative z-10 container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="font-serif text-4xl sm:text-5xl font-bold text-foreground mb-4">
-            The Dark Chronicles
+            New Merserat Chronicles
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             A three-book saga of shadows, secrets, and survival in a world where darkness reigns

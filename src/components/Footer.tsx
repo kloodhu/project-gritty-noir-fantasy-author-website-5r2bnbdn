@@ -24,10 +24,10 @@ export function Footer() {
           {/* Brand */}
           <div>
             <h3 className="font-serif text-2xl font-bold text-primary mb-3">
-              Author Name
+              Klood P. Trouvay
             </h3>
             <p className="text-muted-foreground">
-              Author of The Dark Chronicles - A gritty noir fantasy series set in fog-shrouded seaport cities.
+              Author of New Merserat Chronicles - A gritty noir fantasy series set in fog-shrouded seaport city.
             </p>
           </div>
 
@@ -45,18 +45,18 @@ export function Footer() {
               </li>
               <li>
                 <button 
-                  onClick={() => handleNavigation('series')}
-                  className="text-muted-foreground hover:text-primary transition-colors"
-                >
-                  The Series
-                </button>
-              </li>
-              <li>
-                <button 
                   onClick={() => handleNavigation('about')}
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
                   About
+                </button>
+              </li>
+              <li>
+                <button 
+                  onClick={() => handleNavigation('series')}
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
+                  The Series
                 </button>
               </li>
               <li>
