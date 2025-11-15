@@ -17,15 +17,15 @@ function HomePage() {
   return (
     <>
       <Helmet>
-        <title>Author Name | Dark Fantasy Noir Series | The Dark Chronicles</title>
-        <meta name="description" content="Discover The Dark Chronicles, a gritty noir fantasy trilogy set in fog-shrouded seaport cities. Immerse yourself in political intrigue, dark magic, and brutal 16th-century-inspired urban settings by Author Name." />
+        <title>Klood P. Trouvay | Gritty Low Fantasy Series | New Merserat Chronicles</title>
+        <meta name="description" content="Discover New Merserat Chronicles, a gritty noir fantasy trilogy set in fog-shrouded seaport cities. Immerse yourself in political intrigue, viscewral fights, and brutal pre-industrial urban settings by Klood P. Trouvay." />
       </Helmet>
       <Navbar />
       <main>
         <HeroSection />
+        <AboutSection />
         <SeriesSection />
         <ReviewsSection />
-        <AboutSection />
         <ContactSection />
         <NewsletterSection />
       </main>
